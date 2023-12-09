@@ -21,19 +21,6 @@ Chat 이벤트는 이벤트 시작, 종료 및 메세지 전송 작업을 수행
 | message       | string    | 전송할 채팅 메시지 내용           |
 
 ## Chat 이벤트
-
--   { applicationId 확인하는 위치 }
-
-<!-- ![applicationId 확인하는 위치 보여주기](%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD%202f856f9e0c184551865a86fb8d39dec3/Untitled.png) -->
-
-applicationId 확인하는 위치 보여주기
-
--   { sessionId 확인하는 위치 }
-
-<!-- ![sessionId 확인하는 위치 보여주기](%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD%202f856f9e0c184551865a86fb8d39dec3/Untitled.png) -->
-
-sessionId 확인하는 위치 보여주기
-
 -   Chat API 목록
 
 | 행위                   | Method | HTTP 요청 Url                                   |
@@ -41,3 +28,7 @@ sessionId 확인하는 위치 보여주기
 | 채팅 어플리케이션 시작 | PATCH  | /v1/applications/{applicationId}/sessions/start |
 | 채팅 어플리케이션 종료 | PATCH  | /v1/applications/{applicationId}/sessions/end   |
 | 채팅 메시지 전송       | POST   | /v1/chats/{sessionId}/send                      |
+
+Note: In-Stream Tenant 페이지 > 로그인 > Application > 사용하려는 application의 id를 확인해주세요.
+
+Note: In-Stream Tenant 페이지 > 로그인 > Application > 사용하려는 application > 사용하려는 session의 id를 확인해주세요.
