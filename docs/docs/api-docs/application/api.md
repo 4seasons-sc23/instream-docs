@@ -12,8 +12,9 @@ next: false
 ### HTTP request
 
 ```
-PATCH {In-Stream 서버주소}/v1/applications/{applicationId}/start
+PATCH https://admin-instream.aolda.net/v1/applications/{applicationId}/start
 ```
+**Note**: In-Stream Tenant 페이지 > 로그인 > Application > 사용하려는 application의 id를 확인해주세요.
 
 ### Response
 
@@ -38,8 +39,9 @@ PATCH {In-Stream 서버주소}/v1/applications/{applicationId}/start
 ### HTTP request
 
 ```
-PATCH {In-Stream 서버주소}/v1/applications/{applicationId}/end
+PATCH https://admin-instream.aolda.net/v1/applications/{applicationId}/end
 ```
+**Note**: In-Stream Tenant 페이지 > 로그인 > Application > 사용하려는 application의 id를 확인해주세요.
 
 ### Response
 
