@@ -12,11 +12,12 @@ next: false
 ### HTTP request
 
 ```
-PATCH {In-Stream 서버주소}/v1/applications/{applicationId}/sessions/start
+PATCH https://admin-instream.aolda.net/v1/applications/{applicationId}/sessions/start
 ```
+**Note**: In-Stream Tenant 페이지 > 로그인 > Application > 사용하려는 application의 id를 확인해주세요.
 
 ### Response
-
+**200 OK**
 ```json
 {
     "id": "80bd6328-76a7-11ee-b720-0242ac130003",
@@ -32,11 +33,12 @@ PATCH {In-Stream 서버주소}/v1/applications/{applicationId}/sessions/start
 ### HTTP request
 
 ```
-PATCH {In-Stream 서버주소}/v1/applications/{applicationId}/sessions/end
+PATCH https://admin-instream.aolda.net/v1/applications/{applicationId}/sessions/end
 ```
+**Note**: In-Stream Tenant 페이지 > 로그인 > Application > 사용하려는 application의 id를 확인해주세요.
 
 ### Response
-
+**200 OK**
 ```json
 {
     "id": "80bd6328-76a7-11ee-b720-0242ac130003",
@@ -52,8 +54,9 @@ PATCH {In-Stream 서버주소}/v1/applications/{applicationId}/sessions/end
 ### HTTP request
 
 ```
-POST {In-Stream 서버주소}/v1/chats/{sessionId}/send
+POST https://admin-instream.aolda.net/v1/chats/{sessionId}/send
 ```
+**Note**: In-Stream Tenant 페이지 > 로그인 > Application > 사용하려는 application > 사용하려는 session의 id를 확인해주세요.
 
 ### HTTP request body
 
@@ -65,7 +68,7 @@ POST {In-Stream 서버주소}/v1/chats/{sessionId}/send
 ```
 
 ### Response
-
+**200 OK**
 ```json
 {
     "participantId": "123123abc",
