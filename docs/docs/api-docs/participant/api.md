@@ -14,8 +14,9 @@ Query Parameter를 사용하여 검색 조건과 정렬 조건을 지정할 수 
 ### HTTP request
 
 ```
-GET {In-Stream 서버주소}/v1/applications/sessions/{sessionId}/participants
+GET https://admin-instream.aolda.net/v1/applications/sessions/{sessionId}/participants
 ```
+Note: In-Stream Tenant 페이지 > 로그인 > Application > 사용하려는 application > 사용하려는 session의 id를 확인해주세요.
 
 ### parameter
 
@@ -39,7 +40,7 @@ GET {In-Stream 서버주소}/v1/applications/sessions/{sessionId}/participants
 ```
 
 ### Response
-
+**200 OK**
 ```json
 {
     "data": [
@@ -89,8 +90,9 @@ GET {In-Stream 서버주소}/v1/applications/sessions/{sessionId}/participants
 ### HTTP request
 
 ```
-POST {In-Stream 서버주소}/v1/applications/sessions/{sessionId}/participants/enter
+POST https://admin-instream.aolda.net/v1/applications/sessions/{sessionId}/participants/enter
 ```
+Note: In-Stream Tenant 페이지 > 로그인 > Application > 사용하려는 application > 사용하려는 session의 id를 확인해주세요.
 
 ### HTTP request body
 
@@ -103,7 +105,7 @@ POST {In-Stream 서버주소}/v1/applications/sessions/{sessionId}/participants/
 ```
 
 ### Response
-
+**200 OK**
 ```json
 {
     "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
@@ -136,8 +138,9 @@ POST {In-Stream 서버주소}/v1/applications/sessions/{sessionId}/participants/
 ### HTTP request
 
 ```
-POST {In-Stream 서버주소}/v1/applications/sessions/{sessionId}/participants/leave
+POST https://admin-instream.aolda.net/v1/applications/sessions/{sessionId}/participants/leave
 ```
+Note: In-Stream Tenant 페이지 > 로그인 > Application > 사용하려는 application > 사용하려는 session의 id를 확인해주세요.
 
 ### HTTP request body
 
@@ -148,7 +151,7 @@ POST {In-Stream 서버주소}/v1/applications/sessions/{sessionId}/participants/
 ```
 
 ### Response
-
+**200 OK**
 ```json
 {
     "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
