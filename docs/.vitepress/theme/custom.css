@@ -1,0 +1,6 @@
+.vp-doc a {
+    font-weight: 500;
+    color: var(--vp-c-text-1);
+    text-decoration: none;
+    transition: color 0.25s, opacity 0.25s;
+}
