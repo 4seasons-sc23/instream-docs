@@ -27,11 +27,11 @@ Tenant는 In-Stream 어플리케이션 상태를 관리하는 어플리케이션
 
 ## Application 이벤트
 
-**Note**: 애플리케이션 ID를 받으려면 로그인한 후 설정 > 애플리케이션 > 일반으로 이동한 후 애플리케이션 ID를 확인합니다.
-
 -   Application API 목록
 
 | 행위                 | Method | HTTP 요청 Url                          |
 | -------------------- | ------ | -------------------------------------- |
 | Application 활성화   | PATCH  | /v1/applications/{applicationId}/start |
 | Application 비활성화 | PATCH  | /v1/applications/{applicationId}/end   |
+
+**Note**: In-Stream Tenant 페이지 > 로그인 > Application > 사용하려는 application의 id를 확인해주세요.
