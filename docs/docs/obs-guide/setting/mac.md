@@ -3,6 +3,8 @@ prev: false
 next: false
 ---
 
+# Mac에서 세팅하는 방법
+
 이 가이드에서는 **MacOS에서 OBS Studio 방송을 In-Stream에 연동하는 방법을 알려주는 가이드**입니다. 만약 OBS Studio를 설치하시지 않았다면, [Prepare to OBS 문서](/docs/obs-guide/prepare-to-obs)에 따라 설치를 먼저 진행해주세요.
 
 다음은 OBS Studio를 실행시켰을 때의 화면입니다. 좌측 상단 OBS Studio 탭에서 Preferences를 선택하세요.
