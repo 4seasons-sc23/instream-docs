@@ -65,8 +65,21 @@ export default {
                         text: "OBS Guide",
                         collapsed: true,
                         items: [
-                            { text: "Mac", link: "" },
-                            { text: "Window", link: "" },
+                            {
+                                text: "Prepare to OBS",
+                                link: "docs/obs-guide/prepare-to-obs",
+                            },
+                            {
+                                text: "Setting",
+                                collapsed: true,
+                                items: [
+                                    {
+                                        text: "Mac",
+                                        link: "docs/obs-guide/setting/mac",
+                                    },
+                                    { text: "Window", link: "" },
+                                ],
+                            },
                         ],
                     },
                 ],
