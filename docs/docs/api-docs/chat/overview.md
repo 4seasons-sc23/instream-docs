@@ -24,13 +24,13 @@ Chat 이벤트는 이벤트 시작, 종료 및 메세지 전송 작업을 수행
 
 -   { applicationId 확인하는 위치 }
 
-![applicationId 확인하는 위치 보여주기](%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD%202f856f9e0c184551865a86fb8d39dec3/Untitled.png)
+<!-- ![applicationId 확인하는 위치 보여주기](%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD%202f856f9e0c184551865a86fb8d39dec3/Untitled.png) -->
 
 applicationId 확인하는 위치 보여주기
 
 -   { sessionId 확인하는 위치 }
 
-![sessionId 확인하는 위치 보여주기](%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD%202f856f9e0c184551865a86fb8d39dec3/Untitled.png)
+<!-- ![sessionId 확인하는 위치 보여주기](%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD%202f856f9e0c184551865a86fb8d39dec3/Untitled.png) -->
 
 sessionId 확인하는 위치 보여주기
 

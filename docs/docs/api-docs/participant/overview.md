@@ -62,7 +62,7 @@ Tenant는 In-Stream Platform API를 사용하여 자사 서비스 고객의 데�
 
 -   { sessionId 확인하는 위치 }
 
-![sessionId 확인하는 위치 보여주기](../Chat%205a10563a51da4845b089724692abd084/%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD%202f856f9e0c184551865a86fb8d39dec3/Untitled.png)
+<!-- ![sessionId 확인하는 위치 보여주기](../Chat%205a10563a51da4845b089724692abd084/%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD%202f856f9e0c184551865a86fb8d39dec3/Untitled.png) -->
 
 sessionId 확인하는 위치 보여주기
 
