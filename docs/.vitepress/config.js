@@ -15,17 +15,7 @@ export default {
                     { text: "요금 정책", link: "" },
                     {
                         text: "SDK Docs",
-                        collapsed: true,
-                        items: [
-                            {
-                                text: "개요",
-                                link: "docs/sdk-docs/overview.md",
-                            },
-                            {
-                                text: "SDK 상세정보",
-                                link: "docs/sdk-docs/property.md",
-                            },
-                        ],
+                        link: "docs/sdk-docs",
                     },
                     {
                         text: "API Docs",
