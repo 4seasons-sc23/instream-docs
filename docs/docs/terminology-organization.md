@@ -23,7 +23,7 @@ next: false
 
 **Application**은 라이브스트리밍, 채팅 등을 제공하는 기능의 단위입니다. Application은 생성할 때 선택한 타입의 기능을 제공합니다. Tenant는 여러개의 Application과 Application Type을 사용하여, 여러가지 기획을 구현할 수 있습니다.
 
-![Untitled01](/terminology/Untitled%201.png)
+<img src="/terminology/Untitled%201.png" width=400 >
 
 ### Type.
 
