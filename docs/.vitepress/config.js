@@ -12,7 +12,7 @@ export default {
                         text: "용어 정의",
                         link: "docs/terminology-organization",
                     },
-                    { text: "요금 정책", link: "" },
+                    { text: "요금 정책", link: "docs/billing-organization" },
                     {
                         text: "SDK Docs",
                         link: "docs/sdk-docs",
