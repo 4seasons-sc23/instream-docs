@@ -3,11 +3,16 @@ prev: false
 next: false
 ---
 
-# instream-sdk Documentation
+# instream-sdk
 
 ## Overview
 
 `instream-sdk`는 실시간 스트리밍과 채팅 기능을 제공하는 React 컴포넌트 라이브러리입니다. 이 라이브러리는 간편하게 비디오 스트리밍과 대화 기능을 웹 애플리케이션에 통합할 수 있도록 설계되었습니다.
+
+## Install
+
+-   npm: `npm install instream-sdk`
+-   yarn: `yarn add instream-sdk`
 
 ## Components
 
