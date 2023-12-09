@@ -23,4 +23,4 @@ Participant가 채팅 메시지를 전송한 횟수로 과금을 측정합니다
 
 ## LIVE 타입
 
-LIVE 타입은 STREAMING 타입과 CHAT 타입의 통합으로 이루어져있습니다. 따라서 과금정책은 위의 STREAMING 타입, CHAT 타입의 요금정책을 확인해주세요.
+LIVE 타입은 STREAMING 타입과 CHAT 타입의 통합으로 이루어져있습니다. STREAMING 타입, CHAT 타입의 요금정책을 참고해주세요.
