@@ -5,7 +5,7 @@ next: false
 
 # Prepare to Use API
 
-**In-Stream API**를 사용하면 In-Stream 서비스 애플리케이션에서 제공하는 이벤트와 관련된 데이터를 나타내는 여러 종류의 리소스와 직접 상호 작용할 수 있습니다. 표준 HTTP 프로토콜을 사용하고 HTTP 요청에 대한 응답으로 **JSON** 페이로드를 반환하도록 설계되었으며 내부적으로 **RESTful** 원칙을 기반으로 구현됩니다. 네이티브 SDK는 클라이언트 측에서 많은 요청과 응답을 처리하지만 Live API는 서버 측에서 서비스에 유연성과 기능을 추가합니다.
+**In-Stream API**를 사용하면 In-Stream 서비스 애플리케이션에서 제공하는 이벤트와 관련된 데이터를 나타내는 여러 종류의 리소스와 직접 상호 작용할 수 있습니다. 표준 HTTP 프로토콜을 사용하고 HTTP 요청에 대한 응답으로 **JSON** 페이로드를 반환하도록 설계되었으며 내부적으로 **RESTful** 원칙을 기반으로 구현됩니다. 네이티브 SDK는 클라이언트 측에서 많은 요청과 응답을 처리하지만 In-Stream API는 서버 측에서 서비스에 유연성과 기능을 추가합니다.
 
 **Note**: In-Stream API는 Client-side를 위한 기능을 제공하지 않습니다. 대신 In-Stream SDK를 사용하세요.
 
@@ -14,7 +14,7 @@ next: false
 In-Stream API에 사용되는 기본 URL의 형식은 다음과 같습니다:
 
 ```
-https://{In-Stream서버주소}/api/v1
+https://admin-instream.aolda.net/api/v1
 ```
 
 ## Headers
@@ -36,3 +36,5 @@ API 요청은 API Key를 사용하여 In-Stream 서버에 의해 인증되어야
 ```
 ApiKey: {tenant_api_key}
 ```
+
+**Note**: In-Stream Tenant 페이지 > 로그인 > Application > 사용하려는 application의 api key를 확인해주세요.
