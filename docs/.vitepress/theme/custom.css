@@ -5,7 +5,6 @@
     transition: color 0.25s, opacity 0.25s;
 }
 
-/* .vp-doc td {
-    font-size: 14px;
-    background-color: white;
-} */
+.vp-doc tr:nth-child(2n) {
+    background-color: var(--vp-c-bg);
+}
