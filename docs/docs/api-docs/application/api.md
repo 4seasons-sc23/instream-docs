@@ -44,7 +44,7 @@ PATCH https://admin-instream.aolda.net/v1/applications/{applicationId}/end
 **Note**: In-Stream Tenant 페이지 > 로그인 > Application > 사용하려는 application의 id를 확인해주세요.
 
 ### Response
-
+**200 OK**
 ```json
 {
     "id": "80bd6328-76a7-11ee-b720-0242ac130003",
