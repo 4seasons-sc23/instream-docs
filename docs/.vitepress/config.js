@@ -90,7 +90,7 @@ export default {
                                     },
                                     {
                                         text: "Window",
-                                        link: "",
+                                        link: "docs/obs-guide/setting/window",
                                     },
                                 ],
                             },
